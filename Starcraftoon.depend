@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1537538357 source:c:\users\remyc\desktop\temp_work\c\starcraftoon\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Structures.h"
+
+1537538357 c:\users\remyc\desktop\temp_work\c\starcraftoon\structures.h
+
