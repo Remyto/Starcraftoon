@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 #include "Structures.h"
 
 #define DEBUG 1
 
 //return a new unit (Marine)
-cell_unit* createMarines(){
-    cell_unit* newcell_unit = (cell_unit*) malloc(sizeof(cell_unit));
+Cell_unit* createMarines(){
+    Cell_unit* newcell_unit = (Cell_unit*) malloc(sizeof(Cell_unit));
     Unit* newunit = (Unit*) malloc(sizeof(Unit));
     newcell_unit->unit = newunit;
     newcell_unit->next = NULL;
@@ -23,8 +23,8 @@ cell_unit* createMarines(){
     newunit->targ = 3;
 
     newunit->pv = 100;
-    newunit->shld = 0;
-    //newunit->def
+    //newunit->shld = 0;
+    newunit->def = 1;
     newunit->dmg = 15;
     newunit->rate = 8;
 
@@ -47,17 +47,31 @@ cell_unit* createMarines(){
     return newcell_unit;
 }
 
-
+void printlist(Cell_unit* actualcell){
+    while(actualcell != NULL){
+        printf("%s\n", actualcell->unit->name);
+        actualcell = actualcell->next;
+    }
+}
 
 
 int main()
 {
-    cell_unit* list_units = NULL;
-    list_units = createMarines();
 
+    Cell_unit* start_list_units = NULL;
+    start_list_units = createMarines();
 
-
+    //print all units
+    printlist(start_list_units);
 
 
     return 0;
 }
+
+
+
+
+
+
+
+
