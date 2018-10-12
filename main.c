@@ -4,10 +4,10 @@
 #include "Structures.h"
 #include "createMarine().h"
 
-<<<<<<< HEAD
+
 #define DEBUG 0
 
-=======
+
 #define DEBUG 1
 
 //return a new unit (Marine)
@@ -58,12 +58,12 @@ void printlist(Cell_unit* actualcell){
         actualcell = actualcell->next;
     }
 }
->>>>>>> c6f9fb30213a41318860b4915244ba61fc858909
+
 
 
 int main()
 {
-<<<<<<< HEAD
+
     cell_unit* list_units = NULL;
     cell_unit* start_list_units = list_units;
 
@@ -78,14 +78,14 @@ int main()
         printf("\n\t%s", (list_units->unit)->name);
         list_units = list_units->next;
     }
-=======
+
 
     Cell_unit* start_list_units = NULL;
     start_list_units = createMarines();
 
     //print all units
     printlist(start_list_units);
->>>>>>> c6f9fb30213a41318860b4915244ba61fc858909
+
 
 
     return 0;
