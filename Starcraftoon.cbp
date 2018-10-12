@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="Structures.h" />
+		<Unit filename="createMarine().h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

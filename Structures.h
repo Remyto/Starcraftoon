@@ -28,7 +28,7 @@ typedef struct building{
 
     int pv;
     int shld;        //point of shield
-    //int def;          //damage reduction for a certain weapon(s)
+    int def;          //damage reduction for a certain weapon(s)
     int dmg;
 
 
