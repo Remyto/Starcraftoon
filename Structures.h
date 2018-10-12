@@ -27,7 +27,11 @@ typedef struct building{
     int targ;       //1=ground, 2=aerial, 3=booth
 
     int pv;
+<<<<<<< HEAD
     int shld;        //point of shield
+=======
+    //int shld;        //point of shield
+>>>>>>> c6f9fb30213a41318860b4915244ba61fc858909
     int def;          //damage reduction for a certain weapon(s)
     int dmg;
 
@@ -38,7 +42,7 @@ typedef struct building{
 typedef struct cell_unit{
     Unit* unit;
     struct cell_unit* next;
-}cell_unit;
+}Cell_unit;
 
 
 

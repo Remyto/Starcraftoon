@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # depslib dependency file v1.0
 1537538357 source:c:\users\remyc\desktop\temp_work\c\starcraftoon\main.c
 	<stdio.h>
@@ -13,3 +14,28 @@
 
 1537545194 c:\users\remyc\documents\github\starcraftoon\structures.h
 
+=======
+# depslib dependency file v1.0
+1537538357 source:c:\users\remyc\desktop\temp_work\c\starcraftoon\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Structures.h"
+
+1537538357 c:\users\remyc\desktop\temp_work\c\starcraftoon\structures.h
+
+1537544190 source:c:\users\remyc\documents\github\starcraftoon\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Structures.h"
+
+1537539796 c:\users\remyc\documents\github\starcraftoon\structures.h
+
+1537546079 source:c:\users\utilisateur\desktop\cours\l2\s3\prog\starcraftoon-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Structures.h"
+
+1537545024 c:\users\utilisateur\desktop\cours\l2\s3\prog\starcraftoon-master\structures.h
+
+>>>>>>> c6f9fb30213a41318860b4915244ba61fc858909
